@@ -1,0 +1,20 @@
+name: Question
+description: Ask a usage question
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: Check the [README](../../blob/main/README.md) and [SUPPORT.md](../../blob/main/SUPPORT.md) first — your question may already be answered there.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What are you trying to accomplish? Include config (DB_DRIVER, deployment method) if relevant.

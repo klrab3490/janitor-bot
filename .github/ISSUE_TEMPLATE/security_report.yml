@@ -1,0 +1,27 @@
+name: Security report (non-sensitive only)
+description: Only for security-related reports that do NOT need private disclosure. For an actual vulnerability, use "Report a vulnerability" instead.
+labels: ["security", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Stop:** if this report describes an exploitable vulnerability, do not
+        continue here. Use [private vulnerability reporting](../../security/advisories/new)
+        instead, per [SECURITY.md](../../blob/main/SECURITY.md). This template
+        is only for non-sensitive security hardening suggestions (e.g. "add a
+        rate limit here") that are safe to discuss publicly.
+
+  - type: checkboxes
+    id: confirm-non-sensitive
+    attributes:
+      label: Confirmation
+      options:
+        - label: This is a hardening suggestion, not an exploitable vulnerability report
+          required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+    validations:
+      required: true

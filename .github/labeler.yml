@@ -1,0 +1,37 @@
+commands:
+  - changed-files:
+      - any-glob-to-any-file: src/commands/**
+
+events:
+  - changed-files:
+      - any-glob-to-any-file: src/events/**
+
+database:
+  - changed-files:
+      - any-glob-to-any-file: src/database/**
+
+api:
+  - changed-files:
+      - any-glob-to-any-file: src/api/**
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file: .github/workflows/**
+
+docker:
+  - changed-files:
+      - any-glob-to-any-file:
+          - Dockerfile
+          - docker-compose.yml
+          - .dockerignore
+
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.md"
+
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file:
+          - package.json
+          - package-lock.json

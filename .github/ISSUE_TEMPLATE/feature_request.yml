@@ -1,0 +1,32 @@
+name: Feature request
+description: Suggest an idea for Janitor
+labels: ["enhancement", "triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Is your request related to a problem? Describe it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+
+  - type: checkboxes
+    id: scope-check
+    attributes:
+      label: Scope check
+      description: Janitor is intentionally a thin Discord-to-n8n relay — business logic belongs in n8n workflows, not the bot.
+      options:
+        - label: This feature belongs in the bot itself (not something an n8n workflow could already do)
+          required: true
