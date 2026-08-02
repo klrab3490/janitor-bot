@@ -1,6 +1,6 @@
 # Janitor
 
-[![CI](https://github.com/OWNER/janitor-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/janitor-bot/actions/workflows/ci.yml)
+[![CI](https://github.com/klrab3490/janitor-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/klrab3490/janitor-bot/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
@@ -50,7 +50,7 @@ Each Discord server (guild) pairs with its own n8n instance independently — th
 ## Quick start
 
 ```bash
-git clone https://github.com/OWNER/janitor-bot.git
+git clone https://github.com/klrab3490/janitor-bot.git
 cd janitor-bot
 npm install
 cp .env.example .env   # fill in DISCORD_TOKEN, CLIENT_ID, ENCRYPTION_KEY

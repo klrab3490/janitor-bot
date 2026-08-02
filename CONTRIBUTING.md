@@ -5,7 +5,7 @@ Thanks for considering a contribution. This project follows [GitHub Flow](https:
 ## Getting set up
 
 ```bash
-git clone https://github.com/OWNER/janitor-bot.git
+git clone https://github.com/klrab3490/janitor-bot.git
 cd janitor-bot
 npm install
 cp .env.example .env
