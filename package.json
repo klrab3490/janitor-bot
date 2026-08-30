@@ -24,28 +24,28 @@
     "test": "tsx --test src/**/*.test.ts"
   },
   "dependencies": {
-    "axios": "^1.19.0",
-    "better-sqlite3": "^13.0.2",
+    "axios": "^1.20.0",
+    "better-sqlite3": "^13.0.3",
     "discord.js": "^14.27.0",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "pg": "^8.22.0",
+    "pg": "^8.23.0",
     "winston": "^3.19.0",
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^21.2.1",
+    "@commitlint/cli": "^21.2.2",
     "@commitlint/config-conventional": "^21.2.0",
     "@eslint/js": "^10.0.1",
     "@types/better-sqlite3": "^9.6.0",
     "@types/express": "^5.0.6",
-    "@types/node": "^26.1.2",
-    "@types/pg": "^8.20.3",
-    "eslint": "^10.8.0",
+    "@types/node": "^26.4.0",
+    "@types/pg": "^8.23.1",
+    "eslint": "^10.9.1",
     "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.9.6",
-    "tsx": "^4.23.4",
+    "tsx": "^4.23.12",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.65.0"
+    "typescript-eslint": "^8.68.0"
   }
 }
